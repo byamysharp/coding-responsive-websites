@@ -119,13 +119,27 @@ body {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   color: #fff;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
+  font-size: 1.2em;
+  background-color: #56E39F;
   height: 300px;
   display: flex;
   width: 30%;
   justify-content: center;
   align-items: center;
+  border-color: #37323E;
+  border-style: double;
+  border-width: 5px;
+
+}
+
+.div-1 p, .div-2 p, .div-3 p {
+  text-align: center;
+  padding: 20px;
+  color: #37323E;
+}
+
+.div-1 p span, .div-2 p span, .div-3 p span {
+  text-decoration: underline;
 }
 
 
