@@ -108,6 +108,20 @@ body {
   height: 100%;
 }
 
+.header {
+  color: #ffffff;
+  font-family: 'Lora', sans-serif;
+  font-size: 1.5em;
+}
+
+.subheader {
+  color: #ffffff;
+}
+
+.subheader span {
+  font-family: 'Lora', sans-serif;
+}
+
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
   font-weight: 700;
@@ -144,6 +158,10 @@ body {
 
 .div-1 p span, .div-2 p span, .div-3 p span {
   text-decoration: underline;
+}
+
+.footer {
+  background-color: #ffffff;
 }
 
 
