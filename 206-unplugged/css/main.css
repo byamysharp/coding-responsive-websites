@@ -87,6 +87,214 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/*-------------- Base Header - Footer Styles --------------*/
+
+header, footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header {
+
+}
+
+header .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header h3 {
+
+}
+
+header div {
+
+}
+
+header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer {
+
+}
+
+footer .content-wrapper {
+
+}
+
+footer .footer-content {
+
+}
+
+footer .contact {
+
+}
+
+footer .contact h4 {
+
+}
+
+footer .contact p {
+
+}
+
+footer .social {
+
+}
+
+footer .social h4 {
+
+}
+
+footer .social-icons {
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+}
+
+footer .social-icons p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .copyright {
+
+}
+
+footer .copyright p {
+
+}
+
+/*-------------- Mobile Styles - Homepage --------------*/
+
+/* Hero Area */
+
+.hero-area {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.hero-area .content-wrapper {
+
+}
+
+.hero-area h1 {
+
+}
+
+/* Aside */
+
+aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+aside .content-wrapper {
+
+}
+
+aside .form-description {
+
+}
+
+aside h3 {
+
+}
+
+aside p {
+
+}
+
+aside .form {
+
+}
+
+aside input {
+
+}
+
+/* Features */
+
+.features {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.features .content-wrapper {
+
+}
+
+.features h2 {
+
+}
+
+.features .feature-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.features article {
+
+}
+
+.features article p {
+
+}
+
+/* Reviews */
+
+.reviews {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.reviews .content-wrapper {
+
+}
+
+.reviews h2 {
+
+}
+
+.reviews .article {
+
+}
+
+.reviews .review-text {
+
+}
+
+.reviews  h3 {
+
+}
+
+.reviews p {
+
+}
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -260,4 +468,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
