@@ -127,6 +127,10 @@ p {
   line-height: 1.285;
 }
 
+img {
+  width: 100%;
+}
+
 address {
   font-style: normal;
 }
