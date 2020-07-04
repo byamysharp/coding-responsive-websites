@@ -191,16 +191,19 @@ header nav {
   width: 60%;
   font-size: 1.125em;
   font-weight: 700;
+
 }
 
 header nav ul {
   display: flex;
   justify-content: space-around;
   width: 100%;
+  padding: 0;
 }
 
 header nav ul li {
   font-size: 1.125em;
+
 }
 
 footer {
@@ -251,7 +254,7 @@ footer .copyright {
   min-height: 500px;
 }
 
-.hero-area h1 {
+.hero-area .content-wrapper h1 {
   font-weight: 500;
   font-family: 'Poppins', Helvetica, Arial, sans-serif;
   font-size: 2.125em;
@@ -355,6 +358,21 @@ input[type=button] {
   align-items: center;
   flex-flow: row wrap;
   background-color: #527158;
+}
+
+.map-container figure {
+  position: relative;
+  padding-bottom: 125%;
+  height: 0;
+  overflow: hidden;
+}
+
+.map-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .contact-section {
@@ -538,6 +556,21 @@ input[type=button] {
     display: none;
   }
 
+  /* Hero Area */
+
+  .hero-area {
+    justify-content: center;
+    min-height: 625px;
+  }
+
+  .hero-area .content-wrapper h1 {
+    width: 80%;
+    font-size: 2.8em;
+    line-height: 1.1;
+    width: 100%;
+    margin: auto;
+  }
+
   /* Aside */
 
   aside .content-wrapper {
@@ -678,7 +711,7 @@ input[type=button] {
     padding: 15px 0;
   }
 
-    .container-wrapper {
+  .content-wrapper {
     max-width: 960px;
   }
 
@@ -698,9 +731,18 @@ input[type=button] {
 
   /* Hero Area */
 
-  .hero-area h1 {
+  .hero-area {
+    justify-content: flex-start;
+    min-height: 625px;
+  }
+
+  .hero-area .content-wrapper h1 {
     width: 80%;
-    font-size: 3.75em;
+    font-size: 3.6em;
+    line-height: 1.1;
+    width: 100%;
+    margin: auto;
+    padding-left: 150px;
   }
 
   /* Aside */
