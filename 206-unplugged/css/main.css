@@ -102,6 +102,8 @@ body {
 
 ul, ol {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -113,6 +115,7 @@ h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.875em;
   font-weight: 500;
+  margin: 0;
 }
 
 h3, h4 {
@@ -198,12 +201,10 @@ header nav ul {
   display: flex;
   justify-content: space-around;
   width: 100%;
-  padding: 0;
 }
 
 header nav ul li {
   font-size: 1.125em;
-
 }
 
 footer {
@@ -216,8 +217,7 @@ footer .content-wrapper {
   margin: 50px 0;
 }
 
-footer .contact,
-footer .social {
+footer .contact {
   margin-bottom: 50px;
 }
 
@@ -263,7 +263,7 @@ footer .copyright {
   min-height: 500px;
 }
 
-.hero-area .content-wrapper h1 {
+.hero-area h1 {
   font-weight: 500;
   font-family: 'Poppins', Helvetica, Arial, sans-serif;
   font-size: 2.125em;
@@ -379,6 +379,7 @@ input[type=button] {
   padding-bottom: 125%;
   height: 0;
   overflow: hidden;
+  width: 100%;
 }
 
 .map-container iframe {
@@ -433,6 +434,7 @@ input[type=button] {
 .faq-content h4 {
   line-height: 1.333;
 }
+
 
 /* ==========================================================================
    Helper classes
@@ -533,7 +535,7 @@ input[type=button] {
   }
 
   h2 {
-    font-size: 1.5em;
+    font-size: 2.25em;
     line-height: 1.333;
   }
 
@@ -574,15 +576,13 @@ input[type=button] {
 
   .hero-area {
     justify-content: center;
-    min-height: 625px;
+    min-height: 600px;
   }
 
-  .hero-area .content-wrapper h1 {
-    width: 80%;
-    font-size: 2.8em;
+  .hero-area h1 {
+    font-size: 3em;
     line-height: 1.1;
-    width: 100%;
-    margin: auto;
+    margin: 0;
   }
 
   /* Aside */
@@ -620,6 +620,7 @@ input[type=button] {
 
   .features i {
     font-size: 4.5em;
+    margin-bottom: 30px;
   }
 
   /* Reviews */
@@ -668,6 +669,10 @@ input[type=button] {
 
   footer p {
     line-height: 1.285;
+  }
+
+  footer .social {
+    padding: 0 0 50px 0;
   }
 
   footer .social-icons {
@@ -825,6 +830,7 @@ input[type=button] {
   footer h4 {
     font-size: 1.875em;
   }
+
 
   /******* About Page Styles *******/
 
